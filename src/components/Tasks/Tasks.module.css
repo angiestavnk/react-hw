@@ -1,0 +1,28 @@
+.textfield {
+    margin: 0 auto;
+    position: fixed;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+
+}
+ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    list-style: none;
+    padding: 2px 5px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: 200;
+    border: 1px solid #d15e5e;
+    border-radius: 5px;
+    background: #a4a4a4;
+}
+.closeBtn {
+    position: relative;
+    display: inline-block;
+    top: 0;
+    padding: 4px 6px 4px 6px;
+}
