@@ -1,23 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
 .app-wrapper {
-    margin: 0 auto;
-    display: grid;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 700px;
-    grid-template-areas: 
-    "h h" 
-    "n c";
-    grid-template-rows: 60px 10fr;
-    grid-template-columns: 2fr 10fr;
-    
-
+    width: 500px;
+    box-shadow: 0 0px 20px rgba(0,0,0,0.3);
+    border-radius: 5px;
 }
 .app-wrapper-content {
-    grid-area: c;
-    background-color: #f18c8e;
-    border-radius: 0 0 20px 0;
-    color: #305f72;
+    background-color: rgb(233, 228, 228);
+    border-radius: 0 0 5px 5px;
+    color: #1c1d1d;
     font-weight: bold;
 }
